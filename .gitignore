@@ -1,5 +1,3 @@
-*/log.html
-*/report.html
-*/output.xml
-scripts/*.sh
-scripts/*.bash
+**/log.html
+**/report.html
+**/output.xml
