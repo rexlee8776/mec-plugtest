@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "serName": {
+            "type": "string"
+        },
+        "serCategory": {
+            "type": "object"
+        },
+        "version": {
+            "type": "string"
+        },
+        "state": {
+            "type": "string",
+            "enum": [
+                "ACTIVE",
+                "INACTIVE"
+            ]
+        },
+        "transportId": {
+            "type": "string"
+        },
+        "transportInfo": {
+            "type": "object"
+        },
+        "serializer": {
+            "type": "string"
+        },
+        "scopeOfLocality": {
+            "type": "string"
+        },
+        "consumedLocalOnly": {
+            "type": "boolean"
+        },
+        "isLocal": {
+            "type": "boolean"
+        }
+    }
+}
